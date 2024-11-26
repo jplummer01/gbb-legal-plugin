@@ -121,3 +121,9 @@ nodes:
     query: ${inputs.question}
     search_result_list: ${search_doc.output}
     openai: azureopenai
+- name: list_policys_for_review
+  type: python
+  source:
+    type: code
+    path: list_policys_for_review.py
+  inputs: {}
